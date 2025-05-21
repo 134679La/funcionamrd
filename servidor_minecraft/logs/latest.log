@@ -78,3 +78,19 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [21May2025 15:34:21.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kratos991 joined the game
 [21May2025 15:37:25.015] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1254, y=82, z=-761} BlockPos{x=1254, y=81, z=-761}
 [21May2025 15:37:25.064] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1253, y=81, z=-762} BlockPos{x=1254, y=81, z=-761}
+[21May2025 15:49:29.861] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: 4lgu1[/127.69.118.238:49743] logged in with entity id 4700 at (1266.4956064511262, 65.40739540236494, -808.1403459703047)
+[21May2025 15:49:29.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 4lgu1 joined the game
+[21May2025 16:04:47.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 4lgu1 has made the advancement [Isn't It Iron Pick]
+[21May2025 16:06:51.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rapjs798 has made the advancement [Sneak 100]
+[21May2025 16:06:53.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 4lgu1 has made the advancement [Sneak 100]
+[21May2025 16:08:59.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 4lgu1 was slain by rapjs798
+[21May2025 16:11:52.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 4lgu1 was impaled on a stalagmite
+[21May2025 16:15:42.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 4lgu1 has made the advancement [Suit Up]
+[21May2025 16:17:17.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kratos991> duerme
+[21May2025 16:17:56.802] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: rapjs798 lost connection: Disconnected
+[21May2025 16:17:56.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rapjs798 left the game
+[21May2025 16:18:48.960] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@580f2197[id=<null>,name=rapjs798,properties={},legacy=false] (/127.156.95.243:58167) lost connection: Disconnected
+[21May2025 16:18:52.809] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: rapjs798[/127.156.95.243:32777] logged in with entity id 11907 at (1268.1796261993843, -51.0, -883.2788499207247)
+[21May2025 16:18:52.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rapjs798 joined the game
+[21May2025 16:19:27.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rapjs798 was slain by Warden
+[21May2025 16:22:17.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rapjs798 was slain by Warden
