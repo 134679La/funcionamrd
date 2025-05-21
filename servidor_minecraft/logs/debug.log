@@ -1112,3 +1112,37 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [21May2025 16:19:01.985] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [21May2025 16:19:27.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rapjs798 was slain by Warden
 [21May2025 16:22:17.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rapjs798 was slain by Warden
+[21May2025 16:24:01.983] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21May2025 16:24:01.990] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[21May2025 16:25:49.370] [Server thread/DEBUG] [de.cadentem.cave_dweller.CaveDweller/]: Cave Dweller could not pass the spawn checks, target: [ServerPlayer['4lgu1'/4700, l='ServerLevel[world]', x=1274.36, y=-24.00, z=-914.04]]
+[21May2025 16:25:54.273] [Server thread/DEBUG] [de.cadentem.cave_dweller.CaveDweller/]: Cave Dweller could not pass the spawn checks, target: [ServerPlayer['4lgu1'/4700, l='ServerLevel[world]', x=1274.91, y=-24.00, z=-914.30]]
+[21May2025 16:25:57.513] [Server thread/DEBUG] [de.cadentem.cave_dweller.CaveDweller/]: Cave Dweller could not pass the spawn checks, target: [ServerPlayer['rapjs798'/11907, l='ServerLevel[world]', x=1277.30, y=-28.82, z=-912.53]]
+[21May2025 16:26:22.682] [Server thread/DEBUG] [de.cadentem.cave_dweller.CaveDweller/]: Cave Dweller could not pass the spawn checks, target: [ServerPlayer['rapjs798'/11907, l='ServerLevel[world]', x=1274.85, y=-24.00, z=-914.51]]
+[21May2025 16:26:29.355] [Server thread/DEBUG] [de.cadentem.cave_dweller.CaveDweller/]: Cave Dweller could not pass the spawn checks, target: [ServerPlayer['4lgu1'/4700, l='ServerLevel[world]', x=1276.43, y=-25.00, z=-913.56]]
+[21May2025 16:26:33.188] [Server thread/DEBUG] [de.cadentem.cave_dweller.CaveDweller/]: Cave Dweller could not pass the spawn checks, target: [ServerPlayer['rapjs798'/11907, l='ServerLevel[world]', x=1275.08, y=-24.00, z=-914.47]]
+[21May2025 16:26:34.058] [Server thread/DEBUG] [de.cadentem.cave_dweller.CaveDweller/]: Cave Dweller could not pass the spawn checks, target: [ServerPlayer['rapjs798'/11907, l='ServerLevel[world]', x=1275.08, y=-24.00, z=-914.47]]
+[21May2025 16:26:51.174] [Server thread/DEBUG] [de.cadentem.cave_dweller.CaveDweller/]: Cave Dweller could not pass the spawn checks, target: [ServerPlayer['4lgu1'/4700, l='ServerLevel[world]', x=1276.44, y=-25.00, z=-913.57]]
+[21May2025 16:26:55.208] [Server thread/DEBUG] [de.cadentem.cave_dweller.CaveDweller/]: Cave Dweller could not pass the spawn checks, target: [ServerPlayer['4lgu1'/4700, l='ServerLevel[world]', x=1276.66, y=-25.00, z=-913.52]]
+[21May2025 16:26:55.421] [Server thread/DEBUG] [de.cadentem.cave_dweller.CaveDweller/]: Cave Dweller could not pass the spawn checks, target: [ServerPlayer['4lgu1'/4700, l='ServerLevel[world]', x=1276.66, y=-25.00, z=-913.52]]
+[21May2025 16:27:06.407] [Server thread/DEBUG] [de.cadentem.cave_dweller.CaveDweller/]: Cave Dweller could not pass the spawn checks, target: [ServerPlayer['4lgu1'/4700, l='ServerLevel[world]', x=1275.16, y=-23.98, z=-914.28]]
+[21May2025 16:27:11.204] [Server thread/DEBUG] [de.cadentem.cave_dweller.CaveDweller/]: Cave Dweller could not pass the spawn checks, target: [ServerPlayer['4lgu1'/4700, l='ServerLevel[world]', x=1274.30, y=-23.00, z=-915.70]]
+[21May2025 16:27:42.397] [Server thread/DEBUG] [de.cadentem.cave_dweller.CaveDweller/]: Cave Dweller could not pass the spawn checks, target: [ServerPlayer['4lgu1'/4700, l='ServerLevel[world]', x=1256.30, y=7.42, z=-920.06]]
+[21May2025 16:29:01.974] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21May2025 16:29:01.978] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[21May2025 16:30:43.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kratos991> XDDDDDDDDDD
+[21May2025 16:30:58.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 4lgu1 fell from a high place
+[21May2025 16:31:09.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kratos991> NO SE ENFRENTEN AL WARDEN
+[21May2025 16:31:18.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rapjs798> PERO EL LOOT
+[21May2025 16:31:28.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rapjs798> ESTA BUENO
+[21May2025 16:31:34.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rapjs798> TENGO PANTALONES ENCANTADO
+[21May2025 16:31:38.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rapjs798> REPARACION MANO
+[21May2025 16:31:43.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rapjs798> REAPARACION
+[21May2025 16:32:05.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kratos991> pero
+[21May2025 16:32:12.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kratos991> haslo con inteligencia p
+[21May2025 16:32:20.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rapjs798> en mi defensa
+[21May2025 16:32:24.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kratos991> te falta un ingeniero
+[21May2025 16:32:34.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kratos991> has tu diagrama de ishikawa p
+[21May2025 16:32:34.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rapjs798> fue caleb quien activo al warden la primera vez
+[21May2025 16:34:01.975] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[21May2025 16:34:01.980] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[21May2025 16:34:10.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rapjs798 was obliterated by a sonically-charged shriek
