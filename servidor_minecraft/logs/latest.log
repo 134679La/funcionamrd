@@ -274,3 +274,4 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [21May2025 20:23:00.416] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 4lgu1 lost connection: Disconnected
 [21May2025 20:23:00.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 4lgu1 left the game
 [21May2025 20:44:53.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kratos991 has made the advancement [The Parrots and the Bats]
+[21May2025 20:56:04.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kratos991 has made the advancement [Hot Stuff]
