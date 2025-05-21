@@ -1651,6 +1651,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2025-05-21 16:45:31 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stripped_jungle_wood": {
     "criteria": {
       "has_log": "2025-05-21 15:46:54 +0000"
