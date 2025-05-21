@@ -198,3 +198,9 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [21May2025 19:48:26.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kratos991 has made the advancement [Take Aim]
 [21May2025 19:55:54.866] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: rapjs798 lost connection: Disconnected
 [21May2025 19:55:54.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rapjs798 left the game
+[21May2025 20:00:49.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kratos991: Teleported Kratos991 to 4lgu1]
+[21May2025 20:03:51.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kratos991: Teleported Kratos991 to 1265.500000, 109.000000, -782.500000]
+[21May2025 20:12:21.307] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Erick1007 lost connection: Disconnected
+[21May2025 20:12:21.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Erick1007 left the game
+[21May2025 20:12:44.811] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Erick1007[/127.143.222.236:42009] logged in with entity id 120729 at (417.668942553465, -50.0, -511.30000001192093)
+[21May2025 20:12:44.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Erick1007 joined the game
