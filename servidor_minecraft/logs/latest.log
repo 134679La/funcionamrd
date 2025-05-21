@@ -195,3 +195,6 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [21May2025 19:35:21.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kratos991: Set the time to 1000]
 [21May2025 19:36:53.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 4lgu1 fell from a high place
 [21May2025 19:42:36.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kratos991 has made the advancement [Sneak 100]
+[21May2025 19:48:26.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kratos991 has made the advancement [Take Aim]
+[21May2025 19:55:54.866] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: rapjs798 lost connection: Disconnected
+[21May2025 19:55:54.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rapjs798 left the game
