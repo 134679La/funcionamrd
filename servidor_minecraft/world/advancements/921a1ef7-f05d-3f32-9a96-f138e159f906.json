@@ -510,6 +510,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_mutton": "2025-05-21 16:39:46 +0000",
       "mutton": "2025-05-20 23:54:55 +0000",
       "rotten_flesh": "2025-05-21 15:54:36 +0000",
       "melon_slice": "2025-05-21 00:02:11 +0000"
@@ -1180,6 +1181,12 @@
   "minecraft:recipes/building_blocks/gray_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-05-21 15:56:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2025-05-21 16:39:20 +0000"
     },
     "done": true
   },
