@@ -1,24 +1,251 @@
-[21May2025 15:33:27.261] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[21May2025 15:33:27.264] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[21May2025 15:33:27.557] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[21May2025 15:33:27.779] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/funcionamrd/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[21May2025 15:33:28.273] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/funcionamrd/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[21May2025 15:33:28.278] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/funcionamrd/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[21May2025 15:33:28.280] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/funcionamrd/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[21May2025 15:33:28.284] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/funcionamrd/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[21May2025 15:33:28.498] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[21May2025 15:33:30.790] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[21May2025 15:33:30.797] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[21May2025 15:33:39.322] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[21May2025 15:33:39.325] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[21May2025 15:33:39.759] [modloading-worker-0/INFO] [studio.lunareclipse.watching.Init/]: From The Fog Loaded Successfully!
-[21May2025 15:33:40.287] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[21May2025 15:33:40.854] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[21May2025 15:33:41.508] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[21May2025 15:33:42.402] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/funcionamrd/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23107!/assets/.mcassetsroot' uses unexpected schema
-[21May2025 15:33:42.402] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/funcionamrd/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23107!/data/.mcassetsroot' uses unexpected schema
-[21May2025 15:33:44.577] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[21May2025 15:33:44.579] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function watching:check
+[23May2025 19:38:59.520] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[23May2025 19:38:59.525] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[23May2025 19:38:59.751] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[23May2025 19:38:59.816] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/funcionamrd/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[23May2025 19:39:00.098] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/funcionamrd/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[23May2025 19:39:00.105] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/funcionamrd/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[23May2025 19:39:00.108] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/funcionamrd/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[23May2025 19:39:00.114] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/funcionamrd/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[23May2025 19:39:00.350] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[23May2025 19:39:02.510] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[23May2025 19:39:02.524] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[23May2025 19:39:11.217] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[23May2025 19:39:11.220] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[23May2025 19:39:11.807] [modloading-worker-0/INFO] [studio.lunareclipse.watching.Init/]: From The Fog Loaded Successfully!
+[23May2025 19:39:12.062] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[23May2025 19:39:12.514] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[23May2025 19:39:13.169] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[23May2025 19:39:13.329] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:falsetrack Expected: 1255 Got: 1256
+[23May2025 19:39:13.329] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:fakediamondore Expected: 1256 Got: 1257
+[23May2025 19:39:13.329] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:stomachblock Expected: 1257 Got: 1258
+[23May2025 19:39:13.330] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:dp_creeper_spawn_egg Expected: 1258 Got: 1259
+[23May2025 19:39:13.330] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:disguise_iron_golem_spawn_egg Expected: 1259 Got: 1260
+[23May2025 19:39:13.330] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:dp_straw_man_spawn_egg Expected: 1260 Got: 1261
+[23May2025 19:39:13.330] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:disguise_cow_spawn_egg Expected: 1261 Got: 1262
+[23May2025 19:39:13.330] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:dpwandering_spawn_egg Expected: 1262 Got: 1263
+[23May2025 19:39:13.331] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:dpore_spawn_egg Expected: 1263 Got: 1264
+[23May2025 19:39:13.331] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:doppelganger_head Expected: 1264 Got: 1265
+[23May2025 19:39:13.331] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:dp_creeper_mutation_spawn_egg Expected: 1265 Got: 1266
+[23May2025 19:39:13.331] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:disguisechicken_spawn_egg Expected: 1266 Got: 1267
+[23May2025 19:39:13.331] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:doppelganger_root Expected: 1267 Got: 1268
+[23May2025 19:39:13.331] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:the_doppelgangerpure_spawn_egg Expected: 1268 Got: 1269
+[23May2025 19:39:13.332] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:disguisemoobloom_spawn_egg Expected: 1269 Got: 1270
+[23May2025 19:39:13.332] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:fakedeepdiamondore Expected: 1270 Got: 1271
+[23May2025 19:39:13.332] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:invaded Expected: 1271 Got: 1272
+[23May2025 19:39:13.332] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:disguisepig_spawn_egg Expected: 1272 Got: 1273
+[23May2025 19:39:13.332] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:doppelblock Expected: 1273 Got: 1274
+[23May2025 19:39:13.333] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:doppelacid Expected: 1274 Got: 1275
+[23May2025 19:39:13.333] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:dppigman_spawn_egg Expected: 1275 Got: 1276
+[23May2025 19:39:13.333] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:doppel_fragment Expected: 1276 Got: 1277
+[23May2025 19:39:13.333] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:dp_pig_obese_spawn_egg Expected: 1277 Got: 1278
+[23May2025 19:39:13.333] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:dp_skeleton_spawn_egg Expected: 1278 Got: 1279
+[23May2025 19:39:13.333] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:doppel_wood Expected: 1279 Got: 1280
+[23May2025 19:39:13.333] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:doppel_plank Expected: 1280 Got: 1281
+[23May2025 19:39:13.334] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:doppel_trap_door Expected: 1281 Got: 1282
+[23May2025 19:39:13.334] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:doppel_plate Expected: 1282 Got: 1283
+[23May2025 19:39:13.334] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:doppel_fence Expected: 1283 Got: 1284
+[23May2025 19:39:13.334] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:doppelstairs Expected: 1284 Got: 1285
+[23May2025 19:39:13.334] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:doppelbutton Expected: 1285 Got: 1286
+[23May2025 19:39:13.334] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:doppel_tree_spawn_egg Expected: 1286 Got: 1287
+[23May2025 19:39:13.334] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:cookbook Expected: 1287 Got: 1288
+[23May2025 19:39:13.335] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:doppeleye Expected: 1288 Got: 1289
+[23May2025 19:39:13.335] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:doppelgrass Expected: 1289 Got: 1290
+[23May2025 19:39:13.335] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:doppelcookbook Expected: 1290 Got: 1291
+[23May2025 19:39:13.335] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:doppelgangergoat_spawn_egg Expected: 1291 Got: 1292
+[23May2025 19:39:13.335] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:present Expected: 1292 Got: 1293
+[23May2025 19:39:13.335] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:amulet Expected: 1293 Got: 1294
+[23May2025 19:39:13.335] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:dpsheep_spawn_egg Expected: 1294 Got: 1295
+[23May2025 19:39:13.336] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:doppeldirt Expected: 1295 Got: 1296
+[23May2025 19:39:13.336] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:acidriver_bucket Expected: 1296 Got: 1297
+[23May2025 19:39:13.336] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: doppelgangermod:fakersteve_spawn_egg Expected: 1297 Got: 1298
+[23May2025 19:39:13.336] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: the_anomaly:moon_phase_change Expected: 1298 Got: 1299
+[23May2025 19:39:13.336] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: the_anomaly:fog_changer Expected: 1299 Got: 1300
+[23May2025 19:39:13.336] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: the_anomaly:deathmode_switch Expected: 1300 Got: 1301
+[23May2025 19:39:13.336] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: killers:abstract_knife Expected: 1301 Got: 1302
+[23May2025 19:39:13.337] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: killers:murder_hammer Expected: 1302 Got: 1303
+[23May2025 19:39:13.337] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: killers:sleeveblade Expected: 1303 Got: 1304
+[23May2025 19:39:13.337] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: killers:withering_axe Expected: 1304 Got: 1305
+[23May2025 19:39:13.337] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: killers:abstract_killer_spawn_egg Expected: 1305 Got: 1306
+[23May2025 19:39:13.337] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: killers:clown_killer_spawn_egg Expected: 1306 Got: 1307
+[23May2025 19:39:13.337] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: killers:crawling_killer_spawn_egg Expected: 1307 Got: 1308
+[23May2025 19:39:13.337] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: killers:ender_killer_spawn_egg Expected: 1308 Got: 1309
+[23May2025 19:39:13.337] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: killers:raincoat_killer_spawn_egg Expected: 1309 Got: 1310
+[23May2025 19:39:13.338] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: killers:swarm_killer_spawn_egg Expected: 1310 Got: 1311
+[23May2025 19:39:13.338] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: killers:withered_killer_spawn_egg Expected: 1311 Got: 1312
+[23May2025 19:39:13.338] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: killers:heart_of_ender Expected: 1312 Got: 1313
+[23May2025 19:39:13.338] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: goat_man:goat_man_spawn_egg Expected: 1313 Got: 1314
+[23May2025 19:39:13.339] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: doppelgangermod:falsetrack Expected: 1474 Got: 1495
+[23May2025 19:39:13.339] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: doppelgangermod:dcowhurt Expected: 1475 Got: 1496
+[23May2025 19:39:13.339] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: doppelgangermod:dchickendeath Expected: 1476 Got: 1497
+[23May2025 19:39:13.340] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: doppelgangermod:dcreeperdeath Expected: 1477 Got: 1498
+[23May2025 19:39:13.340] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: doppelgangermod:ddeath Expected: 1478 Got: 1499
+[23May2025 19:39:13.340] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: doppelgangermod:dhurt Expected: 1479 Got: 1500
+[23May2025 19:39:13.340] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: doppelgangermod:dchickenhurt Expected: 1480 Got: 1501
+[23May2025 19:39:13.340] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: doppelgangermod:dstep Expected: 1481 Got: 1502
+[23May2025 19:39:13.340] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: doppelgangermod:doppelgangerbreathing Expected: 1482 Got: 1503
+[23May2025 19:39:13.340] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: doppelgangermod:invaded Expected: 1483 Got: 1504
+[23May2025 19:39:13.341] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: doppelgangermod:ssd Expected: 1484 Got: 1505
+[23May2025 19:39:13.341] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: doppelgangermod:leavesubworld Expected: 1485 Got: 1506
+[23May2025 19:39:13.341] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: doppelgangermod:openpresent Expected: 1486 Got: 1507
+[23May2025 19:39:13.341] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: doppelgangermod:krampusstep Expected: 1487 Got: 1508
+[23May2025 19:39:13.341] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_anomaly:anomalyspawn Expected: 1488 Got: 1509
+[23May2025 19:39:13.341] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_anomaly:anomalyjumpscare1 Expected: 1489 Got: 1510
+[23May2025 19:39:13.341] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_anomaly:anomalyscream Expected: 1490 Got: 1511
+[23May2025 19:39:13.341] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_anomaly:anomalyambient Expected: 1491 Got: 1512
+[23May2025 19:39:13.342] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_anomaly:anomalystep Expected: 1492 Got: 1513
+[23May2025 19:39:13.342] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_anomaly:anomalyambientcalm Expected: 1493 Got: 1514
+[23May2025 19:39:13.342] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_anomaly:anomalystepnew Expected: 1494 Got: 1515
+[23May2025 19:39:13.342] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_anomaly:anomalyjumpscare2 Expected: 1495 Got: 1516
+[23May2025 19:39:13.342] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_anomaly:anomalydeath Expected: 1496 Got: 1517
+[23May2025 19:39:13.342] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_anomaly:anomalyexplode Expected: 1497 Got: 1518
+[23May2025 19:39:13.342] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_anomaly:moonexplode Expected: 1498 Got: 1519
+[23May2025 19:39:13.342] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: the_anomaly:anomalydeceitfuldissapear Expected: 1499 Got: 1520
+[23May2025 19:39:13.343] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: killers:abstractkillerlaugh Expected: 1500 Got: 1521
+[23May2025 19:39:13.343] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: killers:abstractkillerhurt Expected: 1501 Got: 1522
+[23May2025 19:39:13.343] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: killers:abstractkillerdeath Expected: 1502 Got: 1523
+[23May2025 19:39:13.343] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: killers:abstractkillerclick Expected: 1503 Got: 1524
+[23May2025 19:39:13.343] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: killers:killertheme1 Expected: 1504 Got: 1525
+[23May2025 19:39:13.343] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: killers:raincoatkiller_death Expected: 1505 Got: 1526
+[23May2025 19:39:13.343] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: killers:raincoatkiller_hurt Expected: 1506 Got: 1527
+[23May2025 19:39:13.344] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: killers:raincoatkiller_attack1 Expected: 1507 Got: 1528
+[23May2025 19:39:13.344] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: killers:raincoatkiller_attack2 Expected: 1508 Got: 1529
+[23May2025 19:39:13.344] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: killers:raincoatkiller_attack3 Expected: 1509 Got: 1530
+[23May2025 19:39:13.344] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: killers:raincoatkiller_attack4 Expected: 1510 Got: 1531
+[23May2025 19:39:13.344] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: killers:raincoatkiller_dialog5 Expected: 1511 Got: 1532
+[23May2025 19:39:13.345] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: killers:silence Expected: 1512 Got: 1533
+[23May2025 19:39:13.346] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: killers:killertheme3 Expected: 1513 Got: 1534
+[23May2025 19:39:13.346] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: killers:clownkillerdeath Expected: 1514 Got: 1535
+[23May2025 19:39:13.346] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: killers:clownkillerhurt Expected: 1515 Got: 1536
+[23May2025 19:39:13.346] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: killers:sleevebladehit Expected: 1516 Got: 1537
+[23May2025 19:39:13.346] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: killers:crawler_footstep Expected: 1517 Got: 1538
+[23May2025 19:39:13.346] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: killers:crawler_death Expected: 1518 Got: 1539
+[23May2025 19:39:13.346] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: killers:crawler_living Expected: 1519 Got: 1540
+[23May2025 19:39:13.347] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: killers:crawler_hurt Expected: 1520 Got: 1541
+[23May2025 19:39:13.347] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: killers:killertheme4 Expected: 1521 Got: 1542
+[23May2025 19:39:13.347] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: killers:killertheme5 Expected: 1522 Got: 1543
+[23May2025 19:39:13.348] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: killers:killertheme2 Expected: 1523 Got: 1544
+[23May2025 19:39:13.350] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: killers:killertheme6 Expected: 1524 Got: 1545
+[23May2025 19:39:13.351] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: killers:witheredkiller_attack Expected: 1525 Got: 1546
+[23May2025 19:39:13.351] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: killers:witheredkiller_hit Expected: 1526 Got: 1547
+[23May2025 19:39:13.351] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: killers:witheredkiller_death Expected: 1527 Got: 1548
+[23May2025 19:39:13.351] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: killers:killertheme7 Expected: 1528 Got: 1549
+[23May2025 19:39:13.351] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: killers:swarmkiller_living Expected: 1529 Got: 1550
+[23May2025 19:39:13.351] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: killers:swarmkiller_hurt Expected: 1530 Got: 1551
+[23May2025 19:39:13.351] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: killers:swarmkiller_death Expected: 1531 Got: 1552
+[23May2025 19:39:13.352] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: goat_man:goatnoise_1 Expected: 1532 Got: 1553
+[23May2025 19:39:13.352] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: goat_man:goatnoise_2 Expected: 1533 Got: 1554
+[23May2025 19:39:13.352] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: goat_man:goatnoise_3 Expected: 1534 Got: 1555
+[23May2025 19:39:13.352] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: goat_man:goatnoise_4 Expected: 1535 Got: 1556
+[23May2025 19:39:13.352] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: goat_man:goatnoise_5 Expected: 1536 Got: 1557
+[23May2025 19:39:13.352] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: goat_man:goatnoise_6 Expected: 1537 Got: 1558
+[23May2025 19:39:13.360] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: goat_man:goatnoise_7 Expected: 1538 Got: 1559
+[23May2025 19:39:13.360] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: goat_man:goatnoise_8 Expected: 1539 Got: 1560
+[23May2025 19:39:13.360] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: goat_man:goatscream_1 Expected: 1540 Got: 1561
+[23May2025 19:39:13.360] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: goat_man:goatscream_2 Expected: 1541 Got: 1562
+[23May2025 19:39:13.360] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: goat_man:goatscream_3 Expected: 1542 Got: 1563
+[23May2025 19:39:13.360] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: goat_man:goatscream_4 Expected: 1543 Got: 1564
+[23May2025 19:39:13.361] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: goat_man:goatscream_5 Expected: 1544 Got: 1565
+[23May2025 19:39:13.361] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: goat_man:goatscream_6 Expected: 1545 Got: 1566
+[23May2025 19:39:13.362] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: goat_man:goatscream_7 Expected: 1546 Got: 1567
+[23May2025 19:39:13.362] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: goat_man:goat_step_1 Expected: 1547 Got: 1568
+[23May2025 19:39:13.362] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: goat_man:goat_step_2 Expected: 1548 Got: 1569
+[23May2025 19:39:13.362] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: goat_man:goat_step_3 Expected: 1549 Got: 1570
+[23May2025 19:39:13.362] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: goat_man:goat_step_4 Expected: 1550 Got: 1571
+[23May2025 19:39:13.362] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: goat_man:goat_step_5 Expected: 1551 Got: 1572
+[23May2025 19:39:13.362] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: goat_man:goat_step_6 Expected: 1552 Got: 1573
+[23May2025 19:39:13.362] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: goat_man:chase_1 Expected: 1553 Got: 1574
+[23May2025 19:39:13.363] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: goat_man:chase_2 Expected: 1554 Got: 1575
+[23May2025 19:39:13.363] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: goat_man:chase_3 Expected: 1555 Got: 1576
+[23May2025 19:39:13.363] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: goat_man:chase_4 Expected: 1556 Got: 1577
+[23May2025 19:39:13.363] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: goat_man:flee_1 Expected: 1557 Got: 1578
+[23May2025 19:39:13.363] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: goat_man:flee_2 Expected: 1558 Got: 1579
+[23May2025 19:39:13.363] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: goat_man:spotted Expected: 1559 Got: 1580
+[23May2025 19:39:13.365] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: goat_man:disappear Expected: 1560 Got: 1581
+[23May2025 19:39:13.365] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: goat_man:goat_hurt_1 Expected: 1561 Got: 1582
+[23May2025 19:39:13.365] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: goat_man:goat_hurt_2 Expected: 1562 Got: 1583
+[23May2025 19:39:13.365] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: goat_man:goat_hurt_3 Expected: 1563 Got: 1584
+[23May2025 19:39:13.366] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: goat_man:goat_hurt_4 Expected: 1564 Got: 1585
+[23May2025 19:39:13.366] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: Object did not get ID it asked for. Name: goat_man:goat_death Expected: 1565 Got: 1586
+[23May2025 19:39:13.367] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: doppelgangermod:dp_cow Expected: 124 Got: 125
+[23May2025 19:39:13.367] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: doppelgangermod:dp_creeper Expected: 125 Got: 126
+[23May2025 19:39:13.367] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: doppelgangermod:dpchicken Expected: 126 Got: 127
+[23May2025 19:39:13.367] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: doppelgangermod:disguise_iron_golem Expected: 127 Got: 128
+[23May2025 19:39:13.368] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: doppelgangermod:dp_straw_man Expected: 128 Got: 129
+[23May2025 19:39:13.368] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: doppelgangermod:disguise_cow Expected: 129 Got: 130
+[23May2025 19:39:13.368] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: doppelgangermod:transitionstrawman Expected: 130 Got: 131
+[23May2025 19:39:13.369] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: doppelgangermod:transition_chicken Expected: 131 Got: 132
+[23May2025 19:39:13.369] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: doppelgangermod:dpwandering Expected: 132 Got: 133
+[23May2025 19:39:13.369] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: doppelgangermod:dpore Expected: 133 Got: 134
+[23May2025 19:39:13.369] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: doppelgangermod:dpgolem Expected: 134 Got: 135
+[23May2025 19:39:13.369] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: doppelgangermod:fireball Expected: 135 Got: 136
+[23May2025 19:39:13.370] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: doppelgangermod:dp_creeper_mutation Expected: 136 Got: 137
+[23May2025 19:39:13.370] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: doppelgangermod:disguisechicken Expected: 137 Got: 138
+[23May2025 19:39:13.370] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: doppelgangermod:dpmoobloom Expected: 138 Got: 139
+[23May2025 19:39:13.371] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: doppelgangermod:the_doppelgangerpure Expected: 139 Got: 140
+[23May2025 19:39:13.371] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: doppelgangermod:disguisemoobloom Expected: 140 Got: 141
+[23May2025 19:39:13.371] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: doppelgangermod:thedoppelgangertransition Expected: 141 Got: 142
+[23May2025 19:39:13.371] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: doppelgangermod:disguisepig Expected: 142 Got: 143
+[23May2025 19:39:13.372] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: doppelgangermod:dp_pig Expected: 143 Got: 144
+[23May2025 19:39:13.372] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: doppelgangermod:acidshoot Expected: 144 Got: 145
+[23May2025 19:39:13.372] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: doppelgangermod:dppigman Expected: 145 Got: 146
+[23May2025 19:39:13.372] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: doppelgangermod:dp_pig_obese Expected: 146 Got: 147
+[23May2025 19:39:13.372] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: doppelgangermod:dp_skeleton Expected: 147 Got: 148
+[23May2025 19:39:13.372] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: doppelgangermod:doppel_tree Expected: 148 Got: 149
+[23May2025 19:39:13.373] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: doppelgangermod:doppelgangergoat Expected: 149 Got: 150
+[23May2025 19:39:13.373] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: doppelgangermod:dpsheep Expected: 150 Got: 151
+[23May2025 19:39:13.373] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: doppelgangermod:thedoppelgangerpure_2 Expected: 151 Got: 152
+[23May2025 19:39:13.373] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: doppelgangermod:fakersteve Expected: 152 Got: 153
+[23May2025 19:39:13.373] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: doppelgangermod:fakertranstion Expected: 153 Got: 154
+[23May2025 19:39:13.373] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: doppelgangermod:faker Expected: 154 Got: 155
+[23May2025 19:39:13.374] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: doppelgangermod:tntprojectile Expected: 155 Got: 156
+[23May2025 19:39:13.374] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: the_anomaly:anomaly_escape Expected: 156 Got: 157
+[23May2025 19:39:13.374] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: the_anomaly:anomaly_attack Expected: 157 Got: 158
+[23May2025 19:39:13.374] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: the_anomaly:anomaly_attack_crawl Expected: 158 Got: 159
+[23May2025 19:39:13.374] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: the_anomaly:anomaly_shadow_stalker Expected: 159 Got: 160
+[23May2025 19:39:13.374] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: the_anomaly:anomaly_trap Expected: 160 Got: 161
+[23May2025 19:39:13.375] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: the_anomaly:anomaly_visitor Expected: 161 Got: 162
+[23May2025 19:39:13.375] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: the_anomaly:ent_test Expected: 162 Got: 163
+[23May2025 19:39:13.375] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: the_anomaly:ent_attack_animal Expected: 163 Got: 164
+[23May2025 19:39:13.375] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: the_anomaly:anomaly_behind Expected: 164 Got: 165
+[23May2025 19:39:13.376] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: the_anomaly:anomaly_shadow Expected: 165 Got: 166
+[23May2025 19:39:13.376] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: the_anomaly:anomaly_viewer Expected: 166 Got: 167
+[23May2025 19:39:13.376] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: the_anomaly:anomaly_viewer_attack Expected: 167 Got: 168
+[23May2025 19:39:13.376] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: the_anomaly:anomaly_deceitful Expected: 168 Got: 169
+[23May2025 19:39:13.377] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: the_anomaly:anomaly_visitor_2 Expected: 169 Got: 170
+[23May2025 19:39:13.377] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: killers:abstract_killer Expected: 170 Got: 171
+[23May2025 19:39:13.377] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: killers:clown_killer Expected: 171 Got: 172
+[23May2025 19:39:13.377] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: killers:crawling_killer Expected: 172 Got: 173
+[23May2025 19:39:13.378] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: killers:ender_killer Expected: 173 Got: 174
+[23May2025 19:39:13.378] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: killers:raincoat_killer Expected: 174 Got: 175
+[23May2025 19:39:13.379] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: killers:swarm_killer Expected: 175 Got: 176
+[23May2025 19:39:13.379] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: killers:withered_killer Expected: 176 Got: 177
+[23May2025 19:39:13.379] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: goat_man:goat_man Expected: 177 Got: 178
+[23May2025 19:39:14.156] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/funcionamrd/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23117!/assets/.mcassetsroot' uses unexpected schema
+[23May2025 19:39:14.156] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/funcionamrd/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23117!/data/.mcassetsroot' uses unexpected schema
+[23May2025 19:39:16.350] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:killers:entities/crawling_killer}.pools[2].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[23May2025 19:39:16.351] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:killers:entities/withered_killer}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[23May2025 19:39:16.351] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:killers:entities/ender_kille}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[23May2025 19:39:16.352] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:killers:entities/crawling_killer}.pools[1].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[23May2025 19:39:16.352] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:killers:entities/crawling_killer}.pools[2].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[23May2025 19:39:16.352] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:killers:entities/clown_killer}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[23May2025 19:39:16.352] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:killers:entities/swarm_killer}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[23May2025 19:39:16.353] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:killers:entities/swarm_killer}.pools[1].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[23May2025 19:39:16.353] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:killers:entities/swarm_killer}.pools[2].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[23May2025 19:39:16.353] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:killers:entities/withered_killer}.pools[2].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[23May2025 19:39:16.353] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:killers:entities/abstract_killer}.pools[0].entries[1].functions[2]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[23May2025 19:39:16.353] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:killers:entities/crawling_killer}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[23May2025 19:39:16.353] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:killers:entities/swarm_killer}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[23May2025 19:39:16.354] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:killers:entities/abstract_killer}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[23May2025 19:39:16.354] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:killers:entities/withered_killer}.pools[1].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[23May2025 19:39:16.354] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:killers:entities/raincoat_killer}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[23May2025 19:39:16.355] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:killers:entities/crawling_killer}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[23May2025 19:39:16.356] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:killers:entities/abstract_killer}.pools[1].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[23May2025 19:39:16.356] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:killers:entities/raincoat_killer}.pools[2].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[23May2025 19:39:16.356] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:killers:entities/clown_killer}.pools[1].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[23May2025 19:39:16.356] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:killers:entities/clown_killer}.pools[2].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[23May2025 19:39:16.356] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:killers:entities/raincoat_killer}.pools[1].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[23May2025 19:39:16.411] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[23May2025 19:39:16.412] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function watching:check
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
 	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -30,411 +257,142 @@ java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Wh
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
 Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
-	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.20.1-20230612.114412-srg.jar%23107!/:?]
-	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23107!/:?]
+	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.20.1-20230612.114412-srg.jar%23117!/:?]
+	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23117!/:?]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 6 more
-[21May2025 15:33:44.718] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1369 advancements
-[21May2025 15:33:45.302] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[21May2025 15:33:45.303] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[21May2025 15:33:45.303] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[21May2025 15:33:45.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[21May2025 15:33:45.541] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[21May2025 15:33:45.602] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[21May2025 15:33:45.712] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21May2025 15:33:45.712] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[21May2025 15:33:45.713] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21May2025 15:33:45.714] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[21May2025 15:33:45.753] [Thread-2/INFO] [de.cadentem.cave_dweller.CaveDweller/]: Server configuration has been reloaded
-[21May2025 15:33:45.756] [Thread-2/INFO] [de.cadentem.cave_dweller.CaveDweller/]: Server configuration has been reloaded
-[21May2025 15:33:45.795] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[21May2025 15:33:50.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[21May2025 15:33:53.216] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 15:33:53.223] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 15:33:53.225] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 15:33:53.227] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 15:33:53.230] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 15:33:53.234] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 15:33:53.276] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 15:33:53.512] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 15:33:54.010] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 15:33:54.509] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 15:33:55.284] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 15:33:55.507] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 15:33:56.004] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[21May2025 15:33:56.703] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[21May2025 15:33:57.004] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[21May2025 15:33:57.525] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[21May2025 15:33:58.006] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[21May2025 15:33:58.504] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
-[21May2025 15:33:59.004] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[21May2025 15:33:59.217] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 9214 ms
-[21May2025 15:33:59.218] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (13.486s)! For help, type "help"
-[21May2025 15:33:59.240] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[21May2025 15:34:05.748] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: rapjs798[/127.156.95.243:60267] logged in with entity id 213 at (1272.2908408341807, 111.0, -790.8189519861428)
-[21May2025 15:34:05.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rapjs798 joined the game
-[21May2025 15:34:08.508] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2767ms or 55 ticks behind
-[21May2025 15:34:21.333] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Kratos991[/127.3.131.251:48399] logged in with entity id 575 at (1264.7265252224975, 109.0, -779.3671805247511)
-[21May2025 15:34:21.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kratos991 joined the game
-[21May2025 15:37:25.015] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1254, y=82, z=-761} BlockPos{x=1254, y=81, z=-761}
-[21May2025 15:37:25.064] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1253, y=81, z=-762} BlockPos{x=1254, y=81, z=-761}
-[21May2025 15:49:29.861] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: 4lgu1[/127.69.118.238:49743] logged in with entity id 4700 at (1266.4956064511262, 65.40739540236494, -808.1403459703047)
-[21May2025 15:49:29.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 4lgu1 joined the game
-[21May2025 16:04:47.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 4lgu1 has made the advancement [Isn't It Iron Pick]
-[21May2025 16:06:51.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rapjs798 has made the advancement [Sneak 100]
-[21May2025 16:06:53.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 4lgu1 has made the advancement [Sneak 100]
-[21May2025 16:08:59.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 4lgu1 was slain by rapjs798
-[21May2025 16:11:52.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 4lgu1 was impaled on a stalagmite
-[21May2025 16:15:42.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 4lgu1 has made the advancement [Suit Up]
-[21May2025 16:17:17.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kratos991> duerme
-[21May2025 16:17:56.802] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: rapjs798 lost connection: Disconnected
-[21May2025 16:17:56.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rapjs798 left the game
-[21May2025 16:18:48.960] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@580f2197[id=<null>,name=rapjs798,properties={},legacy=false] (/127.156.95.243:58167) lost connection: Disconnected
-[21May2025 16:18:52.809] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: rapjs798[/127.156.95.243:32777] logged in with entity id 11907 at (1268.1796261993843, -51.0, -883.2788499207247)
-[21May2025 16:18:52.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rapjs798 joined the game
-[21May2025 16:19:27.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rapjs798 was slain by Warden
-[21May2025 16:22:17.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rapjs798 was slain by Warden
-[21May2025 16:30:43.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kratos991> XDDDDDDDDDD
-[21May2025 16:30:58.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 4lgu1 fell from a high place
-[21May2025 16:31:09.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kratos991> NO SE ENFRENTEN AL WARDEN
-[21May2025 16:31:18.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rapjs798> PERO EL LOOT
-[21May2025 16:31:28.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rapjs798> ESTA BUENO
-[21May2025 16:31:34.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rapjs798> TENGO PANTALONES ENCANTADO
-[21May2025 16:31:38.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rapjs798> REPARACION MANO
-[21May2025 16:31:43.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rapjs798> REAPARACION
-[21May2025 16:32:05.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kratos991> pero
-[21May2025 16:32:12.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kratos991> haslo con inteligencia p
-[21May2025 16:32:20.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rapjs798> en mi defensa
-[21May2025 16:32:24.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kratos991> te falta un ingeniero
-[21May2025 16:32:34.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kratos991> has tu diagrama de ishikawa p
-[21May2025 16:32:34.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rapjs798> fue caleb quien activo al warden la primera vez
-[21May2025 16:34:10.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rapjs798 was obliterated by a sonically-charged shriek
-[21May2025 16:34:28.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kratos991> JJAJAJAAJAJA
-[21May2025 16:34:30.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rapjs798 fell off some vines
-[21May2025 16:34:40.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kratos991> XDDDDDDDDDDDDDDDDD
-[21May2025 16:34:59.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kratos991> OE
-[21May2025 16:35:08.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kratos991> MI CASA TIO
-[21May2025 16:35:33.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rapjs798 fell from a high place
-[21May2025 16:36:08.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 4lgu1 fell from a high place
-[21May2025 16:36:31.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rapjs798 was slain by Cave Dweller
-[21May2025 16:38:11.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kratos991> TE MATO EL BICGO
-[21May2025 16:38:18.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kratos991> que hace
-[21May2025 16:38:21.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kratos991> xd
-[21May2025 16:39:04.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rapjs798 fell from a high place
-[21May2025 16:39:13.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rapjs798 fell from a high place
-[21May2025 16:41:57.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rapjs798 was impaled on a stalagmite
-[21May2025 16:43:12.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kratos991: Set the weather to clear]
-[21May2025 16:45:43.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kratos991> aqui es la mesa de encantamientos
-[21May2025 16:45:53.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kratos991> pociones y yunque
-[21May2025 16:46:01.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rapjs798> xd
-[21May2025 16:46:20.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rapjs798> DAVID
-[21May2025 16:46:24.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rapjs798> HAZLO CONTENIDO
-[21May2025 16:46:57.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 4lgu1 hit the ground too hard
-[21May2025 16:47:07.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rapjs798> CONTENIDO???
-[21May2025 16:54:32.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kratos991> XD
-[21May2025 16:54:42.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kratos991> estoy en la mitad del trabajo de mrd
-[21May2025 16:55:02.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kratos991> a se fueron por las dunas xd
-[21May2025 16:55:11.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rapjs798> Yessir
-[21May2025 16:57:38.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kratos991> ya despues vamos a por el warden
-[21May2025 16:57:48.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kratos991> y ponemos cama para aparecer abajo ps
-[21May2025 16:58:16.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rapjs798> mamaguebo
-[21May2025 17:07:40.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kratos991> ODIO METODOLOGIA AAAAAAAAAAAAAAAAAAAAAAAAAA
-[21May2025 17:16:24.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rapjs798> TENEMOS SPAWNER WOOOOOOOOOOOOOO
-[21May2025 17:17:32.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 4lgu1 tried to swim in lava
-[21May2025 17:17:44.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rapjs798> ESTE ES ESPECIAAAAAAAAAAAAAAAL
-[21May2025 17:18:28.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kratos991> XDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXD
-[21May2025 17:22:56.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kratos991> donde estan
-[21May2025 17:23:16.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kratos991: Applied 2.0 damage to 4lgu1]
-[21May2025 17:25:15.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kratos991> oe
-[21May2025 17:25:19.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kratos991> ya acabe
-[21May2025 17:25:24.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <rapjs798> epic
-[21May2025 17:25:24.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kratos991> ahora vuelvo
-[21May2025 17:30:37.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kratos991: Set the weather to clear]
-[21May2025 17:31:28.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kratos991: Applied 2.0 damage to 4lgu1]
-[21May2025 17:33:17.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 4lgu1 was slain by Cave Dweller
-[21May2025 17:51:44.254] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1193, y=-40, z=-1101} BlockPos{x=1193, y=-41, z=-1101}
-[21May2025 17:51:44.602] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1194, y=-40, z=-1100} BlockPos{x=1194, y=-40, z=-1101}
-[21May2025 17:52:10.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 4lgu1 hit the ground too hard
-[21May2025 17:52:48.405] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1176, y=-45, z=-1105} BlockPos{x=1176, y=-45, z=-1106}
-[21May2025 17:53:23.056] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1178, y=-39, z=-1113} BlockPos{x=1177, y=-42, z=-1114}
-[21May2025 17:53:23.106] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1177, y=-39, z=-1113} BlockPos{x=1177, y=-42, z=-1114}
-[21May2025 17:53:23.155] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1177, y=-41, z=-1113} BlockPos{x=1177, y=-42, z=-1114}
-[21May2025 17:53:23.209] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1176, y=-41, z=-1113} BlockPos{x=1177, y=-42, z=-1114}
-[21May2025 18:14:18.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 4lgu1 has made the advancement [Take Aim]
-[21May2025 18:14:57.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kratos991 has made the advancement [Best Friends Forever]
-[21May2025 18:21:30.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kratos991 has made the advancement [Ice Bucket Challenge]
-[21May2025 18:23:09.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rapjs798 has made the advancement [Best Friends Forever]
-[21May2025 18:32:55.958] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1958, y=64, z=-2006} BlockPos{x=1958, y=62, z=-2007}
-[21May2025 18:50:46.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kratos991: Teleported rapjs798 to Kratos991]
-[21May2025 18:50:58.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kratos991: Teleported Kratos991 to 4lgu1]
-[21May2025 18:54:23.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kratos991: Teleported Kratos991 to rapjs798]
-[21May2025 19:01:38.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <4lgu1> ee
-[21May2025 19:02:54.961] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@44134911[id=<null>,name=Erick1007,properties={},legacy=false] (/127.143.222.236:56587) lost connection: Disconnected
-[21May2025 19:03:22.304] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@76bc6ce8[id=<null>,name=Erick1007,properties={},legacy=false] (/127.143.222.236:52589) lost connection: Disconnected
-[21May2025 19:03:32.520] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Erick1007[/127.143.222.236:41831] logged in with entity id 79524 at (830.5274977654536, 100.76636799395752, -869.3614371752745)
-[21May2025 19:03:32.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Erick1007 joined the game
-[21May2025 19:07:14.357] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: rapjs798 lost connection: Disconnected
-[21May2025 19:07:14.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rapjs798 left the game
-[21May2025 19:13:07.287] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Erick1007 fell from a high place
-[21May2025 19:15:52.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 4lgu1 hit the ground too hard
-[21May2025 19:20:06.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kratos991: Teleported Kratos991 to 2243.500000, 63.000000, -2497.500000]
-[21May2025 19:22:29.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <4lgu1> w
-[21May2025 19:23:38.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Erick1007 was slain by Zombie
-[21May2025 19:24:47.371] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: rapjs798[/127.156.95.243:46119] logged in with entity id 92118 at (1274.5, 111.0, -788.5)
-[21May2025 19:24:47.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rapjs798 joined the game
-[21May2025 19:26:07.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kratos991: Teleported Kratos991 to rapjs798]
-[21May2025 19:26:31.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kratos991: Teleported rapjs798 to 4lgu1]
-[21May2025 19:26:36.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 4lgu1 was doomed to fall by rapjs798
-[21May2025 19:27:09.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kratos991> kill rapjs798
-[21May2025 19:27:28.065] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: rapjs798 lost connection: Disconnected
-[21May2025 19:27:28.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rapjs798 left the game
-[21May2025 19:27:50.173] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: rapjs798[/127.156.95.243:39003] logged in with entity id 95616 at (2239.45284466519, 26.0, -2492.626677458523)
-[21May2025 19:27:50.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rapjs798 joined the game
-[21May2025 19:28:29.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kratos991: Teleported rapjs798 to Kratos991]
-[21May2025 19:29:17.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kratos991: Teleported Kratos991 to rapjs798]
-[21May2025 19:35:21.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kratos991: Set the time to 1000]
-[21May2025 19:36:53.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 4lgu1 fell from a high place
-[21May2025 19:42:36.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kratos991 has made the advancement [Sneak 100]
-[21May2025 19:48:26.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kratos991 has made the advancement [Take Aim]
-[21May2025 19:55:54.866] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: rapjs798 lost connection: Disconnected
-[21May2025 19:55:54.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: rapjs798 left the game
-[21May2025 20:00:49.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kratos991: Teleported Kratos991 to 4lgu1]
-[21May2025 20:03:51.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kratos991: Teleported Kratos991 to 1265.500000, 109.000000, -782.500000]
-[21May2025 20:12:21.307] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Erick1007 lost connection: Disconnected
-[21May2025 20:12:21.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Erick1007 left the game
-[21May2025 20:12:44.811] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Erick1007[/127.143.222.236:42009] logged in with entity id 120729 at (417.668942553465, -50.0, -511.30000001192093)
-[21May2025 20:12:44.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Erick1007 joined the game
-[21May2025 20:18:42.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Erick1007 was slain by Cave Dweller
-[21May2025 20:20:05.604] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=115}
-[21May2025 20:20:05.605] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=119}
-[21May2025 20:20:05.605] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=123}
-[21May2025 20:20:05.630] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=99}
-[21May2025 20:20:05.631] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=103}
-[21May2025 20:20:05.631] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=107}
-[21May2025 20:20:05.632] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=111}
-[21May2025 20:20:05.652] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=83}
-[21May2025 20:20:05.653] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=87}
-[21May2025 20:20:05.653] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=91}
-[21May2025 20:20:05.654] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=95}
-[21May2025 20:20:05.670] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=115}
-[21May2025 20:20:05.671] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=119}
-[21May2025 20:20:05.671] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=123}
-[21May2025 20:20:05.671] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=79}
-[21May2025 20:20:05.738] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=99}
-[21May2025 20:20:05.739] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=103}
-[21May2025 20:20:05.740] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=107}
-[21May2025 20:20:05.740] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=111}
-[21May2025 20:20:05.784] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=79}
-[21May2025 20:20:05.785] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=115}
-[21May2025 20:20:05.785] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=119}
-[21May2025 20:20:05.785] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=123}
-[21May2025 20:20:05.791] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=83}
-[21May2025 20:20:05.792] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=87}
-[21May2025 20:20:05.792] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=91}
-[21May2025 20:20:05.792] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=95}
-[21May2025 20:20:05.876] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=99}
-[21May2025 20:20:05.877] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=103}
-[21May2025 20:20:05.877] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=107}
-[21May2025 20:20:05.877] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=111}
-[21May2025 20:20:05.897] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=79}
-[21May2025 20:20:05.903] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=83}
-[21May2025 20:20:05.904] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=87}
-[21May2025 20:20:05.904] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=91}
-[21May2025 20:20:05.904] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=95}
-[21May2025 20:20:09.105] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=111}
-[21May2025 20:20:09.106] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=115}
-[21May2025 20:20:09.106] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=119}
-[21May2025 20:20:09.106] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=123}
-[21May2025 20:20:09.199] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=95}
-[21May2025 20:20:09.199] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=99}
-[21May2025 20:20:09.200] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=103}
-[21May2025 20:20:09.200] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=107}
-[21May2025 20:20:09.206] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=79}
-[21May2025 20:20:09.206] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=83}
-[21May2025 20:20:09.206] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=87}
-[21May2025 20:20:09.207] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=91}
-[21May2025 20:20:09.226] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=79}
-[21May2025 20:20:09.227] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=83}
-[21May2025 20:20:09.227] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=87}
-[21May2025 20:20:09.227] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=91}
-[21May2025 20:20:09.232] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=79}
-[21May2025 20:20:09.232] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=83}
-[21May2025 20:20:09.232] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=87}
-[21May2025 20:20:09.233] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=91}
-[21May2025 20:20:09.238] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=111}
-[21May2025 20:20:09.238] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=115}
-[21May2025 20:20:09.238] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=119}
-[21May2025 20:20:09.239] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=123}
-[21May2025 20:20:09.243] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=95}
-[21May2025 20:20:09.243] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=99}
-[21May2025 20:20:09.244] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=103}
-[21May2025 20:20:09.244] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=107}
-[21May2025 20:22:37.021] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Erick1007 lost connection: Disconnected
-[21May2025 20:22:37.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Erick1007 left the game
-[21May2025 20:23:00.416] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: 4lgu1 lost connection: Disconnected
-[21May2025 20:23:00.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 4lgu1 left the game
-[21May2025 20:44:53.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kratos991 has made the advancement [The Parrots and the Bats]
-[21May2025 20:56:04.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kratos991 has made the advancement [Hot Stuff]
-[21May2025 20:59:06.550] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Kratos991) moved wrongly! 0.2819601185326235
-[21May2025 20:59:06.603] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Kratos991) moved wrongly! 0.6631395074656439
-[21May2025 20:59:06.604] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Kratos991) moved wrongly! 1.050675558015854
-[21May2025 21:39:48.428] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Kratos991) moved wrongly! 0.2770777161624096
-[21May2025 21:39:48.500] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Kratos991) moved wrongly! 0.3633566421767114
-[21May2025 21:43:00.548] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Kratos991) moved wrongly! 0.6173196476875495
-[21May2025 21:43:00.548] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Kratos991) moved wrongly! 0.6442215552801875
-[21May2025 21:43:00.648] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Kratos991) moved wrongly! 0.6643995635660488
-[21May2025 21:43:00.698] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Kratos991) moved wrongly! 0.6783098559773417
-[21May2025 21:43:00.757] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Kratos991) moved wrongly! 0.6864118240105068
-[21May2025 21:43:08.672] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=63, y=-56, z=89}
-[21May2025 21:43:08.673] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=64, y=-56, z=90}
-[21May2025 21:43:08.673] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=66, y=-56, z=92}
-[21May2025 21:43:08.673] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=68, y=-56, z=94}
-[21May2025 21:43:08.673] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=69, y=-56, z=98}
-[21May2025 21:43:08.674] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=70, y=-56, z=101}
-[21May2025 21:43:08.674] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=73, y=-56, z=102}
-[21May2025 21:43:08.674] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=77, y=-56, z=101}
-[21May2025 21:43:40.919] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=79, y=-56, z=103}
-[21May2025 21:43:40.920] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=80, y=-56, z=106}
-[21May2025 21:43:40.921] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=85, y=-56, z=107}
-[21May2025 21:43:40.921] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=85, y=-56, z=112}
-[21May2025 21:43:40.921] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=89, y=-56, z=115}
-[21May2025 21:43:40.921] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=90, y=-56, z=118}
-[21May2025 21:44:00.337] [Worker-Main-240/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=61, y=-56, z=87}
-[21May2025 21:49:47.983] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=4061, y=64, z=-63} BlockPos{x=4063, y=62, z=-63}
-[21May2025 21:57:09.887] [Worker-Main-230/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=79}
-[21May2025 21:57:09.890] [Worker-Main-230/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=83}
-[21May2025 21:57:09.890] [Worker-Main-230/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=87}
-[21May2025 21:57:09.891] [Worker-Main-230/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=91}
-[21May2025 21:57:29.393] [Worker-Main-226/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=95}
-[21May2025 21:57:29.393] [Worker-Main-226/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=99}
-[21May2025 21:57:29.394] [Worker-Main-226/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=103}
-[21May2025 21:57:29.394] [Worker-Main-226/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=107}
-[21May2025 21:57:32.746] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=111}
-[21May2025 21:57:32.747] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=115}
-[21May2025 21:57:32.747] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=119}
-[21May2025 21:57:32.747] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=123}
-[21May2025 21:57:34.837] [Worker-Main-230/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=79}
-[21May2025 21:57:34.837] [Worker-Main-230/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=83}
-[21May2025 21:57:34.837] [Worker-Main-230/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=87}
-[21May2025 21:57:34.837] [Worker-Main-230/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=91}
-[21May2025 21:57:37.041] [Worker-Main-230/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=95}
-[21May2025 21:57:37.041] [Worker-Main-230/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=99}
-[21May2025 21:57:37.041] [Worker-Main-230/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=103}
-[21May2025 21:57:37.042] [Worker-Main-230/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=107}
-[21May2025 21:57:39.061] [Worker-Main-240/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=111}
-[21May2025 21:57:39.061] [Worker-Main-240/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=115}
-[21May2025 21:57:39.062] [Worker-Main-240/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=119}
-[21May2025 21:57:39.062] [Worker-Main-240/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=123}
-[21May2025 21:57:44.561] [Worker-Main-226/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=79}
-[21May2025 21:57:44.561] [Worker-Main-226/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=83}
-[21May2025 21:57:44.561] [Worker-Main-226/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=87}
-[21May2025 21:57:44.561] [Worker-Main-226/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=91}
-[21May2025 21:57:50.331] [Worker-Main-230/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=95}
-[21May2025 21:57:50.331] [Worker-Main-230/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=99}
-[21May2025 21:57:50.331] [Worker-Main-230/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=103}
-[21May2025 21:57:50.331] [Worker-Main-230/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=107}
-[21May2025 21:57:57.392] [Worker-Main-240/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=111}
-[21May2025 21:57:57.393] [Worker-Main-240/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=115}
-[21May2025 21:57:57.393] [Worker-Main-240/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=119}
-[21May2025 21:57:57.393] [Worker-Main-240/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=123}
-[21May2025 21:58:14.050] [Worker-Main-230/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=111}
-[21May2025 21:58:14.050] [Worker-Main-230/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=115}
-[21May2025 21:58:14.050] [Worker-Main-230/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=119}
-[21May2025 21:58:14.051] [Worker-Main-230/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=123}
-[21May2025 21:58:14.094] [Worker-Main-240/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=79}
-[21May2025 21:58:14.094] [Worker-Main-240/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=83}
-[21May2025 21:58:14.095] [Worker-Main-240/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=87}
-[21May2025 21:58:14.095] [Worker-Main-240/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=91}
-[21May2025 21:58:14.104] [Worker-Main-240/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=111}
-[21May2025 21:58:14.104] [Worker-Main-240/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=115}
-[21May2025 21:58:14.104] [Worker-Main-240/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=119}
-[21May2025 21:58:14.104] [Worker-Main-240/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=123}
-[21May2025 21:58:14.108] [Worker-Main-240/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=95}
-[21May2025 21:58:14.109] [Worker-Main-240/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=99}
-[21May2025 21:58:14.109] [Worker-Main-240/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=103}
-[21May2025 21:58:14.109] [Worker-Main-240/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=107}
-[21May2025 21:58:14.116] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=111}
-[21May2025 21:58:14.117] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=115}
-[21May2025 21:58:14.117] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=119}
-[21May2025 21:58:14.117] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=123}
-[21May2025 21:58:14.198] [Worker-Main-230/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=95}
-[21May2025 21:58:14.199] [Worker-Main-230/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=99}
-[21May2025 21:58:14.199] [Worker-Main-230/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=103}
-[21May2025 21:58:14.200] [Worker-Main-230/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=107}
-[21May2025 21:58:14.207] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=79}
-[21May2025 21:58:14.207] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=83}
-[21May2025 21:58:14.207] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=87}
-[21May2025 21:58:14.207] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=91}
-[21May2025 21:58:14.260] [Worker-Main-240/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=79}
-[21May2025 21:58:14.260] [Worker-Main-240/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=83}
-[21May2025 21:58:14.260] [Worker-Main-240/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=87}
-[21May2025 21:58:14.260] [Worker-Main-240/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=91}
-[21May2025 21:58:14.493] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=95}
-[21May2025 21:58:14.494] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=99}
-[21May2025 21:58:14.494] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=103}
-[21May2025 21:58:14.494] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=107}
-[21May2025 21:58:30.819] [Worker-Main-226/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=83}
-[21May2025 21:58:30.820] [Worker-Main-226/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=87}
-[21May2025 21:58:30.820] [Worker-Main-226/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=91}
-[21May2025 21:58:30.820] [Worker-Main-226/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=95}
-[21May2025 21:58:30.836] [Worker-Main-230/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=79}
-[21May2025 21:58:30.865] [Worker-Main-231/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=99}
-[21May2025 21:58:30.866] [Worker-Main-231/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=103}
-[21May2025 21:58:30.866] [Worker-Main-231/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=107}
-[21May2025 21:58:30.866] [Worker-Main-231/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=111}
-[21May2025 21:58:30.870] [Worker-Main-226/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=115}
-[21May2025 21:58:30.870] [Worker-Main-226/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=119}
-[21May2025 21:58:30.870] [Worker-Main-226/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=123}
-[21May2025 21:58:30.997] [Worker-Main-226/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=79}
-[21May2025 21:58:30.998] [Worker-Main-226/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=83}
-[21May2025 21:58:30.998] [Worker-Main-226/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=87}
-[21May2025 21:58:30.998] [Worker-Main-226/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=91}
-[21May2025 21:58:31.119] [Worker-Main-231/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=79}
-[21May2025 21:58:31.119] [Worker-Main-231/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=83}
-[21May2025 21:58:31.120] [Worker-Main-231/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=87}
-[21May2025 21:58:31.120] [Worker-Main-231/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=91}
-[21May2025 21:58:31.124] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=111}
-[21May2025 21:58:31.124] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=115}
-[21May2025 21:58:31.125] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=119}
-[21May2025 21:58:31.125] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=123}
-[21May2025 21:58:31.130] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=95}
-[21May2025 21:58:31.130] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=99}
-[21May2025 21:58:31.130] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=103}
-[21May2025 21:58:31.131] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=107}
-[21May2025 21:58:31.193] [Worker-Main-230/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=111}
-[21May2025 21:58:31.194] [Worker-Main-230/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=115}
-[21May2025 21:58:31.194] [Worker-Main-230/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=119}
-[21May2025 21:58:31.195] [Worker-Main-230/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=123}
-[21May2025 21:58:31.200] [Worker-Main-230/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=95}
-[21May2025 21:58:31.201] [Worker-Main-230/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=99}
-[21May2025 21:58:31.201] [Worker-Main-230/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=103}
-[21May2025 21:58:31.201] [Worker-Main-230/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=107}
-[21May2025 21:58:42.875] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=4352, y=64, z=-253} BlockPos{x=4353, y=62, z=-252}
-[21May2025 21:58:42.925] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=4352, y=64, z=-253} BlockPos{x=4353, y=62, z=-252}
-[21May2025 21:58:42.974] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=4352, y=64, z=-253} BlockPos{x=4353, y=62, z=-252}
-[21May2025 21:59:59.374] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=79}
-[21May2025 21:59:59.375] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=83}
-[21May2025 21:59:59.375] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=87}
-[21May2025 21:59:59.375] [Worker-Main-241/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=91}
-[21May2025 22:00:04.072] [Worker-Main-231/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=95}
-[21May2025 22:00:04.072] [Worker-Main-231/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=99}
-[21May2025 22:00:04.072] [Worker-Main-231/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=103}
-[21May2025 22:00:04.073] [Worker-Main-231/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=107}
-[21May2025 22:00:12.359] [Worker-Main-240/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=111}
-[21May2025 22:00:12.359] [Worker-Main-240/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=115}
-[21May2025 22:00:12.359] [Worker-Main-240/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=119}
-[21May2025 22:00:12.359] [Worker-Main-240/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=123}
-[21May2025 22:04:07.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Kratos991: Set the weather to clear]
-[21May2025 22:07:15.699] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kratos991 lost connection: Disconnected
-[21May2025 22:07:15.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kratos991 left the game
-[21May2025 22:07:37.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[21May2025 22:07:37.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[21May2025 22:07:37.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[21May2025 22:07:37.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[21May2025 22:07:37.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21May2025 22:07:37.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[21May2025 22:07:37.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[21May2025 22:07:37.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21May2025 22:07:37.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21May2025 22:07:37.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21May2025 22:07:37.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23May2025 19:39:16.590] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1384 advancements
+[23May2025 19:39:17.221] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[23May2025 19:39:17.222] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[23May2025 19:39:17.222] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[23May2025 19:39:17.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[23May2025 19:39:17.401] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[23May2025 19:39:17.432] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[23May2025 19:39:17.521] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23May2025 19:39:17.522] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[23May2025 19:39:17.522] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23May2025 19:39:17.522] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[23May2025 19:39:17.558] [Thread-2/INFO] [de.cadentem.cave_dweller.CaveDweller/]: Server configuration has been reloaded
+[23May2025 19:39:17.559] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/goat_man-server.toml is not correct. Correcting
+[23May2025 19:39:17.560] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23May2025 19:39:17.560] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Spawn was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23May2025 19:39:17.560] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Spawn.can_spawn_min was corrected from null to its default, 400. 
+[23May2025 19:39:17.561] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Spawn.can_spawn_max was corrected from null to its default, 800. 
+[23May2025 19:39:17.561] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Spawn.can_spawn_cooldown_chance was corrected from null to its default, 0.05. 
+[23May2025 19:39:17.561] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Spawn.can_spawn_cooldown was corrected from null to its default, 1200. 
+[23May2025 19:39:17.562] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Noise was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23May2025 19:39:17.562] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Noise.reset_noise_min was corrected from null to its default, 340. 
+[23May2025 19:39:17.562] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Noise.reset_noise_max was corrected from null to its default, 460. 
+[23May2025 19:39:17.562] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Leave was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23May2025 19:39:17.563] [Thread-2/INFO] [de.cadentem.cave_dweller.CaveDweller/]: Server configuration has been reloaded
+[23May2025 19:39:17.563] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Leave.time_until_leave was corrected from null to its default, 200. 
+[23May2025 19:39:17.566] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.Leave.time_until_leave_chase was corrected from null to its default, 25. 
+[23May2025 19:39:17.566] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Timers.surface_timer_multiplier was corrected from null to its default, 1.0. 
+[23May2025 19:39:17.568] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23May2025 19:39:17.568] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.spawn_chance_per_tick was corrected from null to its default, 0.05. 
+[23May2025 19:39:17.569] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.spawn_height was corrected from null to its default, 500. 
+[23May2025 19:39:17.570] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.allow_surface_spawn was corrected from null to its default, true. 
+[23May2025 19:39:17.570] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.sky_light_level was corrected from null to its default, 14. 
+[23May2025 19:39:17.571] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.block_light_level was corrected from null to its default, 14. 
+[23May2025 19:39:17.572] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.maximum_amount was corrected from null to its default, 2. 
+[23May2025 19:39:17.572] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.spawn_distance was corrected from null to its default, 18. 
+[23May2025 19:39:17.572] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.check_path_to_spawn was corrected from null to its default, true. 
+[23May2025 19:39:17.573] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Dimensions was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23May2025 19:39:17.574] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Dimensions.dimension_whitelist was corrected from null to its default, [minecraft:overworld]. 
+[23May2025 19:39:17.575] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Biomes was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23May2025 19:39:17.575] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Biomes.override_biome_datapack_config was corrected from null to its default, true. 
+[23May2025 19:39:17.576] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Biomes.surface_biomes_is_whitelist was corrected from null to its default, false. 
+[23May2025 19:39:17.577] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Spawn Conditions.Biomes.surface_biomes was corrected from null to its default, [minecraft:desert, minecraft:badlands, minecraft:eroded_badlands, minecraft:wooded_badlands, minecraft:savanna, minecraft:savanna_plateau, minecraft:windswept_savanna, minecraft:mangrove_swamp]. 
+[23May2025 19:39:17.579] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23May2025 19:39:17.579] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.spotting_range was corrected from null to its default, 100. 
+[23May2025 19:39:17.580] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.can_climb was corrected from null to its default, true. 
+[23May2025 19:39:17.580] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.allow_riding was corrected from null to its default, false. 
+[23May2025 19:39:17.581] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Behaviour.target_invisible was corrected from null to its default, false. 
+[23May2025 19:39:17.584] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23May2025 19:39:17.585] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes.maximum_armor was corrected from null to its default, 20.0. 
+[23May2025 19:39:17.586] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes.maximum_health was corrected from null to its default, 100.0. 
+[23May2025 19:39:17.587] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes.attack_damage was corrected from null to its default, 5.0. 
+[23May2025 19:39:17.587] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes.movement_speed was corrected from null to its default, 0.6. 
+[23May2025 19:39:17.587] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Attributes.depth_strider_bonus was corrected from null to its default, 2.0. 
+[23May2025 19:39:17.588] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Misc was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23May2025 19:39:17.589] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Misc.only_play_noise_to_target was corrected from null to its default, false. 
+[23May2025 19:39:17.593] [Thread-2/INFO] [de.cadentem.goat_man.GoatMan/]: Server configuration has been reloaded
+[23May2025 19:39:17.635] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[23May2025 19:39:21.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[23May2025 19:39:24.699] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23May2025 19:39:24.733] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23May2025 19:39:24.744] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23May2025 19:39:24.758] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23May2025 19:39:24.776] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23May2025 19:39:24.794] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23May2025 19:39:24.814] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23May2025 19:39:24.825] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23May2025 19:39:25.183] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23May2025 19:39:25.679] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23May2025 19:39:26.180] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23May2025 19:39:26.687] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23May2025 19:39:27.179] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
+[23May2025 19:39:27.595] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6417 ms
+[23May2025 19:39:27.595] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (10.058s)! For help, type "help"
+[23May2025 19:39:28.146] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[23May2025 19:39:36.516] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Kratos991[/127.49.129.1:32989] logged in with entity id 219 at (4557.410143685472, 65.0, 231.42469176532865)
+[23May2025 19:39:36.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kratos991 joined the game
+[23May2025 19:39:39.137] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_trap but it was marked as removed already
+[23May2025 19:39:40.289] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_viewer but it was marked as removed already
+[23May2025 19:40:13.199] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_viewer but it was marked as removed already
+[23May2025 19:40:13.349] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_viewer but it was marked as removed already
+[23May2025 19:40:13.349] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_trap but it was marked as removed already
+[23May2025 19:40:14.148] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_viewer but it was marked as removed already
+[23May2025 19:40:14.198] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_viewer but it was marked as removed already
+[23May2025 19:40:14.249] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_trap but it was marked as removed already
+[23May2025 19:40:14.249] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_trap but it was marked as removed already
+[23May2025 19:40:14.548] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_viewer but it was marked as removed already
+[23May2025 19:40:14.949] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_viewer but it was marked as removed already
+[23May2025 19:40:17.348] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_viewer but it was marked as removed already
+[23May2025 19:40:20.250] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_trap but it was marked as removed already
+[23May2025 19:40:21.897] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_viewer but it was marked as removed already
+[23May2025 19:40:31.398] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_viewer but it was marked as removed already
+[23May2025 19:40:31.398] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_trap but it was marked as removed already
+[23May2025 19:40:31.447] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_trap but it was marked as removed already
+[23May2025 19:40:40.297] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_trap but it was marked as removed already
+[23May2025 19:40:42.247] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_trap but it was marked as removed already
+[23May2025 19:40:50.650] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_trap but it was marked as removed already
+[23May2025 19:40:50.801] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_viewer but it was marked as removed already
+[23May2025 19:40:50.850] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_viewer but it was marked as removed already
+[23May2025 19:40:50.900] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_viewer but it was marked as removed already
+[23May2025 19:40:53.850] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_trap but it was marked as removed already
+[23May2025 19:40:54.049] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_trap but it was marked as removed already
+[23May2025 19:40:54.100] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_viewer but it was marked as removed already
+[23May2025 19:40:55.299] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_viewer but it was marked as removed already
+[23May2025 19:40:55.449] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_viewer but it was marked as removed already
+[23May2025 19:40:59.348] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_trap but it was marked as removed already
+[23May2025 19:41:00.299] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_trap but it was marked as removed already
+[23May2025 19:41:02.148] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_trap but it was marked as removed already
+[23May2025 19:41:02.633] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_viewer but it was marked as removed already
+[23May2025 19:41:02.750] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_trap but it was marked as removed already
+[23May2025 19:41:02.948] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_trap but it was marked as removed already
+[23May2025 19:41:03.447] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_viewer but it was marked as removed already
+[23May2025 19:41:03.796] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_trap but it was marked as removed already
+[23May2025 19:41:03.897] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_trap but it was marked as removed already
+[23May2025 19:41:03.948] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_viewer but it was marked as removed already
+[23May2025 19:41:04.148] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_trap but it was marked as removed already
+[23May2025 19:41:04.347] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_trap but it was marked as removed already
+[23May2025 19:41:04.347] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_viewer but it was marked as removed already
+[23May2025 19:41:05.547] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_viewer but it was marked as removed already
+[23May2025 19:41:07.698] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_viewer but it was marked as removed already
+[23May2025 19:41:13.246] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_anomaly:anomaly_viewer but it was marked as removed already
+[23May2025 19:41:24.957] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kratos991 lost connection: Disconnected
+[23May2025 19:41:24.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kratos991 left the game
+[23May2025 19:43:13.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[23May2025 19:43:13.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[23May2025 19:43:13.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[23May2025 19:43:13.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[23May2025 19:43:13.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23May2025 19:43:13.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[23May2025 19:43:13.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[23May2025 19:43:13.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/doppelgangermod:subworld
+[23May2025 19:43:13.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23May2025 19:43:13.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23May2025 19:43:13.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23May2025 19:43:13.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (subworld): All chunks are saved
+[23May2025 19:43:13.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
