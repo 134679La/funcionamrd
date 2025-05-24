@@ -478,11 +478,16 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:blaze": "2025-05-24 04:54:40 +0000",
       "minecraft:skeleton": "2025-05-20 22:28:02 +0000",
+      "minecraft:hoglin": "2025-05-24 04:39:31 +0000",
+      "minecraft:magma_cube": "2025-05-24 05:04:04 +0000",
       "minecraft:spider": "2025-05-20 22:28:51 +0000",
       "minecraft:creeper": "2025-05-20 22:59:30 +0000",
       "minecraft:slime": "2025-05-23 21:29:29 +0000",
+      "minecraft:zombified_piglin": "2025-05-24 05:05:00 +0000",
       "minecraft:witch": "2025-05-23 20:56:20 +0000",
+      "minecraft:wither_skeleton": "2025-05-24 04:54:11 +0000",
       "minecraft:enderman": "2025-05-20 22:27:39 +0000",
       "minecraft:zombie": "2025-05-20 22:35:55 +0000",
       "minecraft:drowned": "2025-05-20 23:52:16 +0000",
@@ -2596,12 +2601,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/soul_torch": {
-    "criteria": {
-      "has_soul_sand": "2025-05-24 04:32:06 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_blackstone_stairs_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-05-24 04:29:45 +0000"
@@ -2638,12 +2637,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/nether_bricks": {
-    "criteria": {
-      "has_nether_brick": "2025-05-24 04:30:08 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_blackstone": {
     "criteria": {
       "has_blackstone": "2025-05-24 04:29:45 +0000"
@@ -2662,12 +2655,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/soul_campfire": {
-    "criteria": {
-      "has_soul_sand": "2025-05-24 04:32:06 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_blackstone_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-05-24 04:29:45 +0000"
@@ -2683,6 +2670,42 @@
   "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-05-24 04:29:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_bricks": {
+    "criteria": {
+      "has_nether_brick": "2025-05-24 04:30:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2025-05-24 04:32:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2025-05-24 04:32:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2025-05-24 04:37:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2025-05-24 04:37:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2025-05-24 04:53:43 +0000"
     },
     "done": true
   },

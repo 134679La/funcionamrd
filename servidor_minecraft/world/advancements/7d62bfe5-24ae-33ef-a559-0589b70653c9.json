@@ -272,9 +272,12 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:blaze": "2025-05-24 05:04:46 +0000",
       "minecraft:skeleton": "2025-05-20 22:55:05 +0000",
+      "minecraft:magma_cube": "2025-05-24 05:04:11 +0000",
       "minecraft:spider": "2025-05-20 22:27:49 +0000",
       "minecraft:creeper": "2025-05-20 22:54:57 +0000",
+      "minecraft:wither_skeleton": "2025-05-24 05:02:26 +0000",
       "minecraft:cave_spider": "2025-05-21 19:46:29 +0000",
       "minecraft:enderman": "2025-05-21 18:11:44 +0000",
       "minecraft:zombie": "2025-05-20 22:27:33 +0000",
@@ -2552,9 +2555,33 @@
     },
     "done": true
   },
-  "minecraft:nether/obtain_crying_obsidian": {
+  "minecraft:recipes/decorations/soul_torch": {
     "criteria": {
-      "crying_obsidian": "2025-05-24 04:32:10 +0000"
+      "has_soul_sand": "2025-05-24 04:29:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2025-05-24 04:29:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2025-05-24 04:29:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-05-24 04:29:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2025-05-24 04:29:32 +0000"
     },
     "done": true
   },
@@ -2579,12 +2606,6 @@
   "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-05-24 04:30:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/soul_torch": {
-    "criteria": {
-      "has_soul_sand": "2025-05-24 04:29:00 +0000"
     },
     "done": true
   },
@@ -2624,18 +2645,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/nether_bricks": {
-    "criteria": {
-      "has_nether_brick": "2025-05-24 04:31:45 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/respawn_anchor": {
-    "criteria": {
-      "has_obsidian": "2025-05-24 04:32:10 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_blackstone": {
     "criteria": {
       "has_blackstone": "2025-05-24 04:30:24 +0000"
@@ -2648,21 +2657,9 @@
     },
     "done": true
   },
-  "minecraft:story/form_obsidian": {
-    "criteria": {
-      "obsidian": "2025-05-24 04:29:32 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-05-24 04:30:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/soul_campfire": {
-    "criteria": {
-      "has_soul_sand": "2025-05-24 04:29:00 +0000"
     },
     "done": true
   },
@@ -2678,21 +2675,39 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/enchanting_table": {
-    "criteria": {
-      "has_obsidian": "2025-05-24 04:29:32 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
-    "criteria": {
-      "has_iron_nugget": "2025-05-24 04:29:19 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-05-24 04:30:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_bricks": {
+    "criteria": {
+      "has_nether_brick": "2025-05-24 04:31:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2025-05-24 04:32:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2025-05-24 04:32:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2025-05-24 05:02:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2025-05-24 05:05:29 +0000"
     },
     "done": true
   },
