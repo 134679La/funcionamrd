@@ -2342,6 +2342,12 @@
     },
     "done": true
   },
+  "doppelgangermod:the_subworld": {
+    "criteria": {
+      "the_subworld_0": "2025-05-24 04:14:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/bookshelf": {
     "criteria": {
       "has_book": "2025-05-24 03:17:08 +0000"
