@@ -2446,6 +2446,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2025-05-24 02:42:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_rabbit": {
     "criteria": {
       "has_rabbit": "2025-05-24 02:42:21 +0000"
@@ -2464,9 +2470,9 @@
     },
     "done": true
   },
-  "minecraft:story/enchant_item": {
+  "minecraft:recipes/misc/leather": {
     "criteria": {
-      "enchanted_item": "2025-05-24 02:57:49 +0000"
+      "has_rabbit_hide": "2025-05-24 02:42:24 +0000"
     },
     "done": true
   },
@@ -2482,15 +2488,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/green_dye": {
+  "minecraft:story/enchant_item": {
     "criteria": {
-      "has_cactus": "2025-05-24 02:42:08 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/leather": {
-    "criteria": {
-      "has_rabbit_hide": "2025-05-24 02:42:24 +0000"
+      "enchanted_item": "2025-05-24 02:57:49 +0000"
     },
     "done": true
   },
@@ -2503,6 +2503,24 @@
   "minecraft:recipes/food/rabbit_stew_from_red_mushroom": {
     "criteria": {
       "has_cooked_rabbit": "2025-05-24 03:01:02 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/stolen_magic": {
+    "criteria": {
+      "coded_trigger": "2025-05-24 03:18:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/recovery_compass": {
+    "criteria": {
+      "has_echo_shard": "2025-05-24 03:21:36 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/magic_siphoner": {
+    "criteria": {
+      "coded_trigger": "2025-05-24 03:31:38 +0000"
     },
     "done": true
   },

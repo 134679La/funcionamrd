@@ -7,11 +7,13 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:wooded_badlands": "2025-05-24 03:19:07 +0000",
       "minecraft:sparse_jungle": "2025-05-23 20:55:14 +0000",
       "minecraft:river": "2025-05-23 20:55:06 +0000",
       "minecraft:forest": "2025-05-23 20:42:59 +0000",
       "minecraft:lush_caves": "2025-05-23 20:59:07 +0000",
       "minecraft:jungle": "2025-05-23 20:45:12 +0000",
+      "minecraft:deep_dark": "2025-05-24 03:14:50 +0000",
       "minecraft:plains": "2025-05-23 22:13:17 +0000"
     },
     "done": false
@@ -218,7 +220,8 @@
     "criteria": {
       "cooked_mutton": "2025-05-23 20:52:38 +0000",
       "rotten_flesh": "2025-05-23 20:54:38 +0000",
-      "glow_berries": "2025-05-23 21:00:52 +0000"
+      "glow_berries": "2025-05-23 21:00:52 +0000",
+      "cooked_chicken": "2025-05-24 03:30:34 +0000"
     },
     "done": false
   },
@@ -1282,6 +1285,90 @@
   "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {
       "has_bone_meal": "2025-05-23 22:12:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-05-24 03:20:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2025-05-24 03:20:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2025-05-24 03:20:52 +0000"
+    },
+    "done": true
+  },
+  "doppelgangermod:the_doppelganger": {
+    "criteria": {
+      "the_doppelganger_0": "2025-05-24 03:31:32 +0000"
+    },
+    "done": true
+  },
+  "tombstone:recipes/from_grave_key": {
+    "criteria": {
+      "has_ingredient": "2025-05-24 03:31:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2025-05-24 03:20:20 +0000"
+    },
+    "done": true
+  },
+  "doppelgangermod:doppelganger_hunter": {
+    "criteria": {
+      "doppelganger_hunter_0": "2025-05-24 03:31:45 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/cancel_ghostly_shape": {
+    "criteria": {
+      "coded_trigger": "2025-05-24 03:32:10 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/first_knowledge": {
+    "criteria": {
+      "coded_trigger": "2025-05-24 03:31:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2025-05-24 03:14:41 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/first_grave": {
+    "criteria": {
+      "coded_trigger": "2025-05-24 03:31:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2025-05-24 03:20:52 +0000"
+    },
+    "done": true
+  },
+  "tombstone:recipes/from_grave_dust": {
+    "criteria": {
+      "has_ingredient": "2025-05-24 03:33:29 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/strong_or_careful": {
+    "criteria": {
+      "coded_trigger": "2025-05-24 03:31:46 +0000"
     },
     "done": true
   },
