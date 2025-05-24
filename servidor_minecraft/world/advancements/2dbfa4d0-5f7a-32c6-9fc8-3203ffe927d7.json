@@ -12,6 +12,7 @@
       "minecraft:birch_forest": "2025-05-24 04:46:18 +0000",
       "minecraft:savanna_plateau": "2025-05-21 00:03:21 +0000",
       "minecraft:stony_peaks": "2025-05-21 00:04:58 +0000",
+      "minecraft:sparse_jungle": "2025-05-24 05:18:16 +0000",
       "minecraft:river": "2025-05-20 22:26:49 +0000",
       "minecraft:dripstone_caves": "2025-05-20 22:33:23 +0000",
       "minecraft:forest": "2025-05-20 22:12:00 +0000",
@@ -1039,6 +1040,7 @@
       "bread": "2025-05-20 23:47:02 +0000",
       "golden_apple": "2025-05-20 23:14:00 +0000",
       "rotten_flesh": "2025-05-20 23:21:09 +0000",
+      "melon_slice": "2025-05-24 05:23:22 +0000",
       "cooked_chicken": "2025-05-20 23:23:16 +0000"
     },
     "done": false
@@ -1887,6 +1889,78 @@
   "tombstone:adventure/root": {
     "criteria": {
       "auto": "2025-05-24 03:09:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2025-05-24 05:22:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-05-24 05:21:42 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/first_knowledge": {
+    "criteria": {
+      "coded_trigger": "2025-05-24 05:59:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-05-24 05:21:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-05-24 05:21:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2025-05-24 05:22:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-05-24 05:21:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2025-05-24 05:22:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-05-24 05:21:42 +0000"
+    },
+    "done": true
+  },
+  "tombstone:recipes/from_grave_dust": {
+    "criteria": {
+      "has_ingredient": "2025-05-24 06:04:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-05-24 05:21:42 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/funeral_theft": {
+    "criteria": {
+      "coded_trigger": "2025-05-24 05:59:04 +0000"
     },
     "done": true
   },
