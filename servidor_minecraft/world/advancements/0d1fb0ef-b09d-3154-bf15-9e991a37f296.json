@@ -9,6 +9,7 @@
     "criteria": {
       "minecraft:old_growth_pine_taiga": "2025-05-21 22:02:06 +0000",
       "minecraft:taiga": "2025-05-21 22:01:27 +0000",
+      "minecraft:eroded_badlands": "2025-05-24 02:41:28 +0000",
       "minecraft:cherry_grove": "2025-05-20 23:19:54 +0000",
       "minecraft:sunflower_plains": "2025-05-20 23:50:52 +0000",
       "minecraft:birch_forest": "2025-05-21 20:59:38 +0000",
@@ -29,6 +30,7 @@
       "minecraft:cold_ocean": "2025-05-21 22:02:55 +0000",
       "minecraft:forest": "2025-05-20 22:15:18 +0000",
       "minecraft:lush_caves": "2025-05-23 20:58:58 +0000",
+      "minecraft:desert": "2025-05-24 02:40:01 +0000",
       "minecraft:windswept_forest": "2025-05-21 22:01:13 +0000",
       "minecraft:jungle": "2025-05-21 00:02:12 +0000",
       "minecraft:ocean": "2025-05-21 21:42:33 +0000",
@@ -2441,6 +2443,36 @@
   "minecraft:recipes/misc/mojang_banner_pattern": {
     "criteria": {
       "has_enchanted_golden_apple": "2025-05-24 01:12:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit": {
+    "criteria": {
+      "has_rabbit": "2025-05-24 02:42:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2025-05-24 02:42:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2025-05-24 02:42:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2025-05-24 02:42:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2025-05-24 02:42:24 +0000"
     },
     "done": true
   },
