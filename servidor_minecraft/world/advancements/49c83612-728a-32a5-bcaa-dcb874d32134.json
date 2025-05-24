@@ -1324,6 +1324,12 @@
     },
     "done": true
   },
+  "tombstone:adventure/choose_knowledge": {
+    "criteria": {
+      "coded_trigger": "2025-05-24 03:39:42 +0000"
+    },
+    "done": true
+  },
   "doppelgangermod:doppelganger_hunter": {
     "criteria": {
       "doppelganger_hunter_0": "2025-05-24 03:31:45 +0000"
@@ -1357,6 +1363,12 @@
   "minecraft:recipes/food/cooked_chicken_from_smoking": {
     "criteria": {
       "has_chicken": "2025-05-24 03:20:52 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/choose_grave_type": {
+    "criteria": {
+      "coded_trigger": "2025-05-24 03:38:10 +0000"
     },
     "done": true
   },
